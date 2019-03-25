@@ -193,7 +193,11 @@ hr {
 .navbar {
   border: 0px;
   background-color: #222222;
-  margin: 0;
+  margin: 0 auto;
+  border-radius: 0;
+  width: 100%;
+  text-align: center;
+  height: 60px;
   /* position: absolute;
   top: 100%;
   right: 5%;
@@ -208,7 +212,9 @@ hr {
   float: none;
 } */
 .navbar-nav {
-  margin: 0px;
+  margin: 0px auto;
+  display: inline-block;
+  float: none;
 }
 .navbar .nav > li {
   display: block;
@@ -256,14 +262,14 @@ hr {
   padding: 40px 180px;
 } */
 
-#profile .row > div {
+#about .row > div {
   margin-bottom: 20px;
 }
-#profile .row > div img {
+#about .row > div img {
   width: 100%;
   max-width: 246px;
   height: auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 8px solid #ddd;
 }
 
@@ -492,7 +498,7 @@ hr {
     display: none;
   }
 
-  #profile .row * {
+  #about .row * {
     text-align: center;
   }
 
